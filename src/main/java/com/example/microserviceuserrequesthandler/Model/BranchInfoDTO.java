@@ -1,14 +1,14 @@
 package com.example.microserviceuserrequesthandler.Model;
 
-public class BranchInfo {
+public class BranchInfoDTO {
 
     private String name;
     private String lastCommitSha;
 
-    public BranchInfo() {
+    public BranchInfoDTO() {
     }
 
-    public BranchInfo(String name, String lastCommitSha) {
+    public BranchInfoDTO(String name, String lastCommitSha) {
         this.name = name;
         this.lastCommitSha = lastCommitSha;
     }

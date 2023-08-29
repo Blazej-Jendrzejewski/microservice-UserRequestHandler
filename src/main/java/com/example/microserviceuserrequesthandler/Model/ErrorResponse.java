@@ -1,14 +1,14 @@
 package com.example.microserviceuserrequesthandler.Model;
 
-public class CustomErrorResponse {
+public class ErrorResponse {
 
     private int status;
     private String message;
 
-    public CustomErrorResponse() {
+    public ErrorResponse() {
     }
 
-    public CustomErrorResponse(int status, String message) {
+    public ErrorResponse(int status, String message) {
         this.status = status;
         this.message = message;
     }

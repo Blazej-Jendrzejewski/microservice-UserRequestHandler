@@ -6,12 +6,12 @@ public class RepoInfo {
 
     private String repositoryName;
     private String ownerLogin;
-    private List<BranchInfo> branches;
+    private List<BranchInfoDTO> branches;
 
     public RepoInfo() {
     }
 
-    public RepoInfo(String repositoryName, String ownerLogin, List<BranchInfo> branches) {
+    public RepoInfo(String repositoryName, String ownerLogin, List<BranchInfoDTO> branches) {
         this.repositoryName = repositoryName;
         this.ownerLogin = ownerLogin;
         this.branches = branches;
@@ -33,11 +33,11 @@ public class RepoInfo {
         this.ownerLogin = ownerLogin;
     }
 
-    public List<BranchInfo> getBranches() {
+    public List<BranchInfoDTO> getBranches() {
         return branches;
     }
 
-    public void setBranches(List<BranchInfo> branches) {
+    public void setBranches(List<BranchInfoDTO> branches) {
         this.branches = branches;
     }
 }
